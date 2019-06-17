@@ -17,8 +17,8 @@ public class Main {
                 }
 
     interface Operationable{
-        int calculate(int x,int y,int z);
+        int calculate(int z,int x,int y);
     }
     interface Operationable1{
-        double calculate1(double x,double y);
+        double calculate1(double y,double z);
     }
